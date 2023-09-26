@@ -1,0 +1,53 @@
+/* Estilos para as abas */
+.tab {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para o formulário de login */
+#loginForm {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#loginForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#loginForm input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#loginForm button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilos para a tela de sorteio */
+#letraSorteada {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos para a tela de regras do jogo */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
